@@ -12,7 +12,7 @@ function ProjectsLink(){
             }
             } className="link-not-clicked scroll-smooth" id="projectsLink">
                 <img className="z-50 ml-1 pr-1 " src="/projects.svg" />
-                &nbsp;&nbsp;&nbsp;Projects
+                &nbsp;Projects
             </span>
             </a>
         </div>

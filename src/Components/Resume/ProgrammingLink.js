@@ -12,7 +12,7 @@ function ProgrammingLink(){
             }
             } className="link-not-clicked scroll-smooth" id="programmingLink">
                 <img className="z-50 ml-1 pr-1 " src="/programming-skills.svg" />
-                &nbsp;&nbsp;&nbsp;Programming skills
+                &nbsp;Skills
             </span>
             </a>
         </div>

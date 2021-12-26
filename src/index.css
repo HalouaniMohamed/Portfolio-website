@@ -30,7 +30,7 @@ code {
     @apply flex flex-row   pr-8  text-white  bg-gray-900 rounded-r-xl w-fit h-fit whitespace-nowrap 
   }
   .link-not-clicked{
-    @apply flex flex-row whitespace-nowrap h-fit 
+    @apply flex flex-row whitespace-nowrap h-fit pr-8
   }
 }
 #resumeContent{

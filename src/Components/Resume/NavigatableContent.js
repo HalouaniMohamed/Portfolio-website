@@ -6,26 +6,26 @@ import Skill from "./Skill";
 
 const NavigatableContent = () => {
     return (
-        <div>
+        
             <div
-                className="overflow-y-hidden h-96 px-5 w-fit "
+                className="overflow-y-hidden h-96  w-fit pl-3"
                 id="resumeContent"
             >
-                <div className="h-96">
-                    <p className="bg-emerald-700 float-right rounded-2xl p-1">
+                <div className="h-96 w-9/12">
+                    <p className="bg-emerald-700 float-right rounded-2xl p-1 text-white">
                         2018-2019
                     </p>
-                    <h1 className="text-emerald-700 font-primary font-bold text-xl mb-3">
+                    <h1 className="text-emerald-700 font-primary font-bold text-base mb-3">
                         High school Hammam sousse II
                     </h1>
                     <p className="text-black font-secondary mb-10">
                         Baccalaureate in Experimental Sciences{" "}
                     </p>
 
-                    <p className="bg-emerald-700 float-right rounded-2xl p-1">
+                    <p className="bg-emerald-700 float-right rounded-2xl p-1 text-white" >
                         2018-2019
                     </p>
-                    <h1 className="text-emerald-700 font-primary font-bold text-xl mb-3">
+                    <h1 className="text-emerald-700 font-primary font-bold text-base  mb-3">
                         Higher Institute of Applied Science and Technology of
                         Sousse
                     </h1>
@@ -52,13 +52,21 @@ const NavigatableContent = () => {
                         <Skill skill="NextJS" skillProgress="loading" />
                     </div>
                 </div>
-                <div className="h-96">
+                <div className="h-96  flex flex-wrap w-5/6 pt-4">
                         <Githubb 
                         name="My-Products" 
                         description="Applying my HTML / CSS / JS and firebase knowledge to build an e-commerce admin panel" 
                         color="bg-yellow-400"
                         language="JavaScript"
                         linkToProject="https://github.com/HalouaniMohamed/My-Products"
+                        />
+                        
+                        <Githubb 
+                        name="Portfolio-website" 
+                        description="This is my portfolio website created using ReactJS, TailwindCSS, Node.js, MongoDB." 
+                        color="bg-yellow-400"
+                        language="JavaScript "
+                        linkToProejct="https://github.com/HalouaniMohamed/Portfolio-website"
                         />
                         <Githubb 
                         name="Machine-learning-from-disaster" 
@@ -72,7 +80,7 @@ const NavigatableContent = () => {
                 </div>
                 <div className="h-96"></div>
             </div>
-        </div>
+        
     );
 };
 

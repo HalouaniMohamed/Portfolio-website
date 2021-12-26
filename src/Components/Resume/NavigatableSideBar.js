@@ -6,7 +6,7 @@ import ProjectsLink from "./ProjectsLink";
 
 const NavigatableSideBar = () => {
     return (
-        <div className="flex flex-col w-64 h-96 border-r-2">
+        <div className="grid w-1/4 h-96 border-r-2 pr-3">
             <div className="absolute w-6 z-0 h-96  bg-gray-900   "></div>
             <EducationLink />
             <ProgrammingLink />

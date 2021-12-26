@@ -12,7 +12,7 @@ function EducationLink(){
             }
             } className="link-clicked  scroll-smooth" id="educationLink">
                 <img className="z-50 ml-1 pr-1 " src="/education.svg" />
-                &nbsp;&nbsp;&nbsp;Education
+                &nbsp;Education
             </span>
             </a>
         </div>

@@ -4,7 +4,7 @@ import NavigatableSideBar from "./NavigatableSideBar";
 
 const Resume = () => {
     return (
-        <div className="w-full flex flex-col">
+        <div className="w-full grid justify-center">
             <h1 className="w-fit font-SecularOne text-emerald-700 mx-auto text-3xl font-bold">
                 Resume
             </h1>
@@ -12,7 +12,7 @@ const Resume = () => {
                 {" "}
                 My formal Bio Details
             </h3>
-            <div className="flex w-fit mx-auto flex-row mt-20 mb-96">
+            <div className="flex w-11/12 mx-auto flex-row mt-20 mb-96">
                 <NavigatableSideBar />
                 <NavigatableContent />
             </div>
