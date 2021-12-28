@@ -6,7 +6,7 @@ const AboutMe = () => {
             </h1>
             <h2 className="mx-auto w-fit  text-sm">Why choose me ?</h2>
             <div className="flex w-fit mx-auto mt-8 h-96 shadow-3xl">
-                <img className="mr-4" src="/deez5.gif" width={520} />
+                <img className="mr-4" src="/aboutme.gif" width={520} />
                 <div className="w-[500px]">
                     <p className="text-sm font-primary ">
                         Lorem Ipsum is simply dummy text of the printing and
