@@ -2,11 +2,15 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        '3xl': '0px 3px 16px 5px rgba(125,125,125,0.8)',
+        'contact' :'0 0 20px 1px rgba(0, 0, 0, 0.1)' ,
+      },
       fontFamily: {
         SecularOne: ["Secular One", "sans-serif"],
-        primary: ["Source Code Pro", "monospace"],
+        primary: ["Montserrat", "sans-serif"],
 
-        secondary: ["Playfair Display", "serif"]
+        secondary: ["Montserrat", "sans-serif"]
       },
     },
     fontSize: {

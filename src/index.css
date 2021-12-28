@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Playfair+Display&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 * {
-  font-family:'Source Code Pro', monospace;
+  font-family: 'Montserrat', sans-serif ;
+  
   box-sizing: border-box;
   scroll-behavior: smooth;
   
@@ -17,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  
 }
 
 code {
@@ -32,7 +35,14 @@ code {
   .link-not-clicked{
     @apply flex flex-row whitespace-nowrap h-fit pr-8
   }
+  .formInput{
+    @apply  w-5/6 mx-auto h-fit py-2 pl-3 rounded-[25px] border-white border-2 placeholder:text-white bg-emerald-700 text-white outline-none
+  }
+  .textAreaInput{
+    @apply  w-5/6 mx-auto h-fit py-2 pl-3 rounded-[25px]  border-white border-2 placeholder:text-white bg-emerald-700  text-white outline-none
+  }
 }
 #resumeContent{
   scroll-behavior: smooth !important;
 }
+

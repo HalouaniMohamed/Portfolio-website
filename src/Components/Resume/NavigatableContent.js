@@ -59,6 +59,8 @@ const NavigatableContent = () => {
                         color="bg-yellow-400"
                         language="JavaScript"
                         linkToProject="https://github.com/HalouaniMohamed/My-Products"
+                        star="1"
+                        fork="1"
                         />
                         
                         <Githubb 
@@ -67,6 +69,8 @@ const NavigatableContent = () => {
                         color="bg-yellow-400"
                         language="JavaScript "
                         linkToProejct="https://github.com/HalouaniMohamed/Portfolio-website"
+                        star="1"
+                        fork="1"
                         />
                         <Githubb 
                         name="Machine-learning-from-disaster" 
@@ -74,6 +78,8 @@ const NavigatableContent = () => {
                         color="bg-orange-500"
                         language="Jupyter Notebook "
                         linkToProejct="https://github.com/HalouaniMohamed/Machine-learning-from-disaster"
+                        star="1"
+                        fork="1"
                         />
                         
                     
