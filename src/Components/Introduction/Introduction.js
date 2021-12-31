@@ -7,10 +7,10 @@ const Introduction = () => {
     return (
         <div className="w-screen bg-gray-900 ">
             
-                <div className="flex bg-gray-900  w-full  justify-center space-x-5 py-10">
+                <div className="zoro:grid 3xl:flex zoro:bg-gray-900  w-full  justify-center space-x-5 py-10 md:bg-yellow-500 3xl:bg-black ">
                     <div className="flex-nowrap space-y-4 py-auto ">
                         <SocialMedia />
-                        <h1 className="text-white font-SecularOne text-xl w-fit mx-auto font-semibold">
+                        <h1 className="text-white font-SecularOne text-xl w-fit mx-auto font-semibold ">
                             Hello i'm{" "}
                             <span className="text-emerald-700 font-SecularOne">
                                 Mohamed Halouani
@@ -36,7 +36,7 @@ const Introduction = () => {
 
                         <Buttons />
                     </div>
-                    <img  src="/adult.png" />
+                    <img className="w-1/6 " src="/adult.png" />
                 </div>
             
             <img

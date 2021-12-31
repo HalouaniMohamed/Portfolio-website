@@ -49,12 +49,12 @@ export default class Form extends Component {
     }
     render() {
         return (
-            <div className="grid bg-emerald-700  w-1/2  space-y-5  py-4">
+            <div className="grid bg-emerald-700  w-1/2  space-y-5  py-4 mx-auto">
                 <h1 className="font-primary mx-auto w-5/6 text-3xl font-bold text-white ">
                     {" "}
                     Contact Us
                 </h1>
-                <form onSubmit={this.sendEmail}>
+                <form onSubmit={this.sendEmail} className="space-y-5 flex flex-col ">
                     <input
                         className="formInput"
                         type="text"
@@ -91,7 +91,7 @@ export default class Form extends Component {
                     ></textarea>
 
                     <input
-                        className=" cursor-pointer rounded-full p-2 border-white border-2  text-emerald-700 border-solid bg-white text-sm px-5  w-32 font-secondary"
+                        className=" cursor-pointer rounded-full p-2 border-white border-2  text-emerald-700 border-solid bg-white text-sm px-5  w-32 font-secondary mx-auto "
                         type="submit"
                         value="Send"
                     />

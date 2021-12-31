@@ -13,7 +13,7 @@ function InterestsLink(){
             }
             } className="link-not-clicked scroll-smooth" id="interestsLink">
                 <img className="z-50 ml-1 pr-1 " src="/interests.svg" />
-                &nbsp;Interests
+                &nbsp;Experience
             </span>
             </a>
         </div>
